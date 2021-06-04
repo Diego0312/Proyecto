@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+    padding: auto;
+}
+
+.cabecera{
+    background-color:rgb(145, 255, 0) ;
+    height: 5em;
+}
+body{
+    background: rgb(0, 174, 255);
+}
+
+.introduccion{
+    height: 30em;
+}
+
+.Presentacion{
+    background-color: azure;
+    height: 30em;
+}
+
+.servicios{
+    height: 30em;
+}
+
+.Portafolio{
+    background-color: azure;
+    height: 40em; 
+}
+.Equipo{
+    height: 30em;
+}
+
+.Contacto{
+    background-color: azure;
+    height: 30em;
+}
+
+.inferior{
+    background-color: rgba(47, 110, 228, 0.856);
+    height: 8em;
+}
+
