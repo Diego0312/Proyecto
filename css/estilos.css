@@ -5,41 +5,118 @@
 }
 
 .cabecera{
-    background-color:rgb(145, 255, 0) ;
-    height: 5em;
+    background-color: white;
+    height: 6em;
 }
 body{
     background: rgb(0, 174, 255);
+    background-image: url(../images/gif1.gif)
 }
 
+.centrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    height: 30rem;
+}
+.productora{
+    align-items: center;
+    color: white;
+}
+.productora2{
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 5rem;
+}
+ 
 .introduccion{
-    height: 30em;
+   
 }
 
 .Presentacion{
-    background-color: azure;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 30em;
 }
 
 .servicios{
-    height: 30em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    
+}
+.servicios2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+
+}
+.servicios3{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+
 }
 
-.Portafolio{
+.portafolio{
     background-color: azure;
-    height: 40em; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    
 }
-.Equipo{
-    height: 30em;
+.portafolio2{
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+}
+.equipo{
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
 }
 
-.Contacto{
+.equipo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+}
+.contacto{
     background-color: azure;
-    height: 30em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    
+}
+.contacto2{
+    background-color: azure;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 15rem;   
 }
 
 .inferior{
     background-color: rgba(47, 110, 228, 0.856);
-    height: 8em;
+    display: flex;
+    justify-content: space-around;
+    height: 10rem;   
 }
 
