@@ -72,7 +72,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10rem;
+    height: 8rem;
     
 }
 .portafolio2{
@@ -80,7 +80,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20rem;
+    height: 30rem;
 }
 .equipo{
     color:white;
