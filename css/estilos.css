@@ -6,11 +6,30 @@
 
 .cabecera{
     background-color: white;
+    display: flex;
+    justify-content: right;
+    align-content: space-around;
     height: 6em;
 }
-body{
-    background: rgb(0, 174, 255);
-    background-image: url(../images/gif1.gif)
+body {
+	margin: 0;
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradiente 15s ease infinite;
+}
+
+@keyframes gradiente {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 .centrar{
@@ -31,15 +50,21 @@ body{
     height: 5rem;
 }
  
-.introduccion{
-   
-}
-
 .Presentacion{
     background-color: white;
     display: flex;
+    flex-direction:column;
     justify-content: center;
     align-items: center;
+    height: 30em;
+    
+}
+
+.Presentacion2{
+    background-color: white;
+    display: flex;
+    align-items: left;
+    justify-content: flex-end;
     height: 30em;
 }
 
@@ -55,7 +80,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    align-content: space-between;
+    align-content: space-around;
 
 }
 .servicios3{
@@ -82,11 +107,28 @@ body{
     align-items: center;
     height: 30rem;
 }
+.galeria{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.galeriaitem{
+    cursor: pointer;
+    width: 80%;
+}
+@media (min-width:480px){
+    .galeriaitem{
+        width: 30%;
+        margin: 2px;
+    }
+}
 .equipo{
     color:white;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     height: 5rem;
 }
 
