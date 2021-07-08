@@ -9,28 +9,20 @@
     display: flex;
     justify-content: right;
     align-content: space-around;
-    height: 6em;
+    height: 4em;
 }
 body {
-	margin: 0;
-	width: 100%;
-	height: 100vh;
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-	animation: gradiente 15s ease infinite;
+
 }
 
-@keyframes gradiente {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+.parrafo1{
+    padding: 0rem 3rem 13rem 3rem;
+    text-align: center;
+    animation-name: example;
+    animation-duration: 2s;
 }
+
+
 
 .centrar{
     display: flex;
@@ -44,10 +36,13 @@ body {
     color: white;
 }
 .productora2{
+    text-align: center;
     display: flex;
+    flex-direction:column;
+    justify-content: center;
     align-items: center;
-    color: white;
-    height: 5rem;
+    height: 30em;
+    padding: 2rem 20rem 0rem 0rem;
 }
  
 .Presentacion{
@@ -58,6 +53,9 @@ body {
     align-items: center;
     height: 30em;
     
+}
+.ParrafoP{
+    padding: 0rem 10rem 0rem 20rem;
 }
 
 .Presentacion2{
@@ -73,14 +71,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10rem;
-    
+    height: 5rem;   
 }
 .servicios2{
-    display: flex;
+    color: white;
+    display: table-column;
     justify-content: center;
     align-items: center;
     align-content: space-around;
+    text-align: center;
 
 }
 .servicios3{
@@ -133,10 +132,12 @@ body {
 }
 
 .equipo2{
-    display: flex;
+    color: white;
+    display: table-column;
     justify-content: center;
     align-items: center;
-    height: 30rem;
+    align-content: space-around;
+    text-align: center;
 }
 .contacto{
     background-color: azure;
@@ -161,4 +162,11 @@ body {
     justify-content: space-around;
     height: 10rem;   
 }
-
+.redes{
+    color: white;
+    display: table-column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    text-align: center;
+}
